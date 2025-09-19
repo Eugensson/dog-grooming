@@ -1,3 +1,5 @@
+import { RiFacebookFill, RiInstagramLine, RiYoutubeLine } from "react-icons/ri";
+
 import DogCateg1 from "@/public/assets/dogs/dog-categ-1.png";
 import DogCateg2 from "@/public/assets/dogs/dog-categ-2.png";
 import DogCateg3 from "@/public/assets/dogs/dog-categ-3.png";
@@ -220,5 +222,23 @@ export const priceList = [
         ],
       },
     ],
+  },
+];
+
+export const socialList = [
+  {
+    label: "Facebook",
+    icon: RiFacebookFill,
+    href: "https://www.facebook.com",
+  },
+  {
+    label: "Instagram",
+    icon: RiInstagramLine,
+    href: "https://www.instagram.com",
+  },
+  {
+    label: "Youtube",
+    icon: RiYoutubeLine,
+    href: "https://www.youtube.com",
   },
 ];
