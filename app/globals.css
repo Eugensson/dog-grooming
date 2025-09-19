@@ -50,7 +50,7 @@ body {
 }
 
 .input-control {
-  @apply w-full max-w-128.5 px-8 text-blue placeholder:text-blue-secondary;
+  @apply w-full max-w-128.5 px-8 bg-white text-blue placeholder:text-blue-secondary;
 }
 
 /* Swiper custom styles */
