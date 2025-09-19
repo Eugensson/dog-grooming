@@ -46,7 +46,7 @@ body {
 }
 
 .btn {
-  @apply px-8 font-medium text-white bg-orange hover:bg-orange-hover transition;
+  @apply px-8 font-medium text-white bg-orange hover:bg-orange-hover transition cursor-pointer;
 }
 
 .input-control {
