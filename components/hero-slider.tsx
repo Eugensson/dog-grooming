@@ -36,7 +36,12 @@ export const HeroSlider = () => {
                 </button>
               </div>
               <div className="flex-1 flex justify-center">
-                <Image src={image} alt={title} className="h-96 lg:h-auto" />
+                <Image
+                  src={image}
+                  alt={title}
+                  priority
+                  className="h-96 lg:h-auto"
+                />
               </div>
             </div>
           </div>

@@ -2,6 +2,25 @@ import HeroSlideImage1 from "@/public/assets/dogs/dog-slide-1.png";
 import HeroSlideImage2 from "@/public/assets/dogs/dog-slide-2.png";
 import HeroSlideImage3 from "@/public/assets/dogs/dog-slide-3.png";
 
+export const navList = [
+  {
+    label: "home",
+    path: "home",
+  },
+  {
+    label: "prices",
+    path: "prices",
+  },
+  {
+    label: "contact",
+    path: "contact",
+  },
+  {
+    label: "get an appointment",
+    path: "appointment",
+  },
+];
+
 export const heroSliderList = [
   {
     id: "1",
